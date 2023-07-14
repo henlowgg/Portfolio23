@@ -1,0 +1,55 @@
+@import url('https://rsms.me/inter/inter.css');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #777;
+  background: black;
+  font-family: 'Inter var', sans-serif;
+}
+
+body::after {
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: calc(100% - 80px);
+  height: calc(100% - 80px);
+  border: 1px solid #aaa;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+canvas {
+  opacity: 0;
+  touch-action: none;
+  animation: fade-in 5s ease 1s forwards;
+}
+
+.char {
+  position: absolute;
+  font-size: 14vw;
+  font-weight: 800;
+  padding: 0;
+  margin: 0;
+  line-height: 0.8em;
+  opacity: 0.1;
+}
