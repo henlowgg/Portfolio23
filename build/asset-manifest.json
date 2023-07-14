@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio23/src/index.js/static/css/main.2c0841ef.css",
-    "main.js": "/Portfolio23/src/index.js/static/js/main.104e95db.js",
-    "index.html": "/Portfolio23/src/index.js/index.html"
+    "main.css": "/Portfolio23/static/css/main.2c0841ef.css",
+    "main.js": "/Portfolio23/static/js/main.104e95db.js",
+    "index.html": "/Portfolio23/index.html"
   },
   "entrypoints": [
     "static/css/main.2c0841ef.css",
